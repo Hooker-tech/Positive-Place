@@ -1,0 +1,46 @@
+#quote {
+    text-align: center;
+    text-shadow: 2px 4px 5px rgb(186, 184, 184);
+    color: #150523;
+    font-size: 4vh;
+    padding-top: 25px;
+    margin: 0 20px 0 20px;
+    font-weight: 600;
+}
+
+#author {
+    margin-left: 65%;
+    color: #210934;
+    font-size: 3vh;
+    text-shadow: 2px 4px 5px rgb(186, 184, 184);
+    padding-top: 20px;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+
+#button {
+    margin-left: 45%;
+    position: relative;
+    top: 5%;
+}
+
+#clicker {
+    background-color: rgb(235, 232, 232);
+    border-radius: 50%;
+    border-color: #210934;
+    padding: 20px;
+    color: #57515c;
+    font-size: 2vh;
+    font-family: 'Harrington';
+    font-weight: 600;
+}
+
+
+#background-image {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 60vh;
+    width: 100vw;
+}

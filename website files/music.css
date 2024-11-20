@@ -1,0 +1,279 @@
+/* side nav buttons / ALL UNIFORM THROUGHOUT SITE*/
+#mySidenav a {
+  position: absolute;
+  left: -95px;
+  transition: 0.3s;
+  padding: 15px 5px 0px 3px;
+  height: 60px;
+  width: 110px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+}
+
+
+#mySidenav a:hover {
+  left: 0;
+  color: whitesmoke
+}
+
+
+/* sidenav seperate tab styling */
+#home {
+  top: 20px;
+  background-color: #210934;
+}
+
+
+body,
+html {
+  height: 100%;
+  margin: 10px;
+  font-family: "linux biolinum G", Arial, Helvetica, sans-serif;
+  background-color: #f3e4dc;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("./musicImages/theatre2.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Gabriola';
+  font-size: x-large;
+}
+
+
+.column-4 {
+  float: left;
+  width: 33%;
+  background-color: #e9ccb1;
+  text-align: center;
+  font-family: "tahoma";
+}
+
+
+.music-notes {
+  width: 350px;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-family: "Broadway";
+  font-size: 24pt;
+  text-shadow: 2px 4px 5px black;
+}
+
+
+
+#text2 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+
+#images2{
+  height:599px;
+}
+
+
+#content {
+  font-family: "Linux Biolinm G";
+  text-align: justify;
+  font-size: 12pt;
+  text-indent: 40px;
+  margin: 25px;
+}
+
+
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+.websitelinks {
+  font-family: "Linux Biolinm G";
+  font-size: 12pt;
+
+}
+
+.websitelinks:hover {
+  color: red;
+  font-family: 'Harrington';
+}
+
+
+.card-bg {
+  background-color: #f3e4dc;
+}
+
+
+
+.card-shadow {
+  box-shadow: 2px 2px 4px black;
+}
+
+
+#sheet-music {
+  max-width: 100%;
+  box-shadow: 0px 0px 5px 2px#000000;
+  margin-bottom: 25px;
+}
+
+
+#copy {
+  position: relative;
+  left: 90%;
+}
+
+
+#join {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+
+input[type=text],
+select {
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #210934;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #57515c;
+}
+
+
+
+#newsletter {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+
+#contact-info {
+  justify-content: left;
+  font-family: 'Linux BiLinux Biolinm G'
+}
+
+
+
+
+/* Code for Footer */
+.logosFooter{
+  height: 50px;
+  width: 50px;
+  margin: 5%;
+}
+
+
+.bottom-center{
+  text-align: center;
+}
+
+
+#pplogo{
+  width:100%;
+  height: fit-content;
+  margin: 5px;
+}
+
+
+#bottom-page{
+  background-color:#57515c;
+  color:#D3D3D3;
+  font-family: "Linux Biolinum G", "Century Gothic";
+ 
+
+}
+#contact-info{
+  margin:5%;
+}
+
+
+#name-info{
+  font-size: 25px;
+  font-family: "Harrington";
+}
+
+.btm-label{
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

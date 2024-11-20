@@ -1,0 +1,516 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "linux biolinum G", "Century Gothic";
+}
+
+body,
+html {
+  height: 100%;
+  color: #210934;
+  line-height: 1.8;
+}
+
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+
+
+.bgimg-1 {
+  background-image: url(./images/path-Sauna.jpg);
+  min-height: 80%;
+}
+
+.bgimg-2 {
+  min-height: 50%;
+}
+
+.bgimg-3 {
+  background-image: url(./images/Chicken-Tortilla-Soup2.jpg);
+  min-height: 50%;
+}
+
+.bgimg-4 {
+  background-image: url(./images/film4.webp);
+  min-height: 50%;
+}
+
+.bgimg-5 {
+  background-image: url(./images/makeup5.jpg);
+  min-height: 50%;
+}
+
+.bgimg-6 {
+  background-color: #d7c9e3;
+  background-image: url(./images/rougeCircles.png.jpg);
+  min-height: 50%;
+  z-index: -1;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+
+@media only screen and (max-device-width: 1600px) {
+
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3,
+  .bgimg-4,
+  .bgimg-5,
+  .bgimg-6 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+#top-of-page {
+  margin-top: 0%;
+}
+
+.sidenav {
+  font-family: 'Ink Free';
+}
+
+/* side nav buttons */
+#mySidenav a {
+  position: absolute;
+  left: -95px;
+  transition: 0.3s;
+  padding: 15px 5px 0px 3px;
+  height: 60px;
+  width: 110px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+
+#mySidenav a:hover {
+  left: 0;
+  color: rgb(245, 245, 245);
+}
+
+
+/* sidenav seperate tab styling */
+#home {
+  top: 20px;
+  background-color: #210934;
+  color: whitesmoke;
+}
+
+
+#personalitySec1 {
+  top: 100px;
+  background-color: #370b5b;
+  color: whitesmoke;
+}
+
+
+#horoscopeSec1 {
+  top: 180px;
+  background-color: #450876;
+  color: whitesmoke;
+}
+
+
+#musicSec1 {
+  top: 260px;
+  background-color: #530593;
+  color: whitesmoke;
+}
+
+
+#foodSec1 {
+  top: 340px;
+  background-color: #5d1498;
+  color: whitesmoke;
+}
+
+
+#fashionSec1 {
+  top: 420px;
+  background-color: #5f159c;
+  color: whitesmoke;
+}
+
+
+
+
+/* start of main content */
+
+#main-logo {
+  margin-top: 5vh;
+}
+
+.mainTitle {
+  font-size: 8vh;
+  font-family: "Ink Free";
+  font-weight: bolder;
+  color: #210934;
+  text-shadow: 2px 4px whitesmoke;
+  text-align: center;
+}
+
+#indexTitle {
+  font-family: "Harrington";
+  font-weight: bolder;
+  font-size: 5vh;
+}
+
+#indexTitle2 {
+  font-size: 18px;
+}
+
+#parallaxTitle {
+  text-shadow: 2px 4px black;
+}
+
+.container {
+  max-width: 300px;
+  background-color: rgb(213, 205, 205);
+  padding: 5%;
+}
+
+
+.first {
+  text-shadow: 2px 4px black;
+}
+
+
+.einstein {
+  font-family: bradley hand itc;
+  font-size: 32px;
+  color: lightgray;
+}
+
+
+#einsteinRight {
+  text-align: right;
+  margin-right: 15px;
+  color: black;
+}
+
+#personalitySec {
+  background-color: #D3D3D3;
+  font: ink free;
+  color: #210934;
+  height: 725px;
+  width: auto;
+}
+
+
+#indexTitle {
+  padding-top: 5%;
+  font-size: 6h;
+}
+
+
+#personalitybtn {
+  background-color: #210934;
+  font-family: "Ink Free";
+  color: white;
+  text-decoration: none;
+  margin-left: 60%;
+  margin-top: -5px;
+}
+
+
+#aboutusbtn {
+  background-color: #210934;
+  font-family: "Ink Free";
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 7px;
+  margin-left: 55px;
+}
+
+
+
+#horoscopeSec {
+  background-color: #D3D3D3;
+  height: 790px;
+  width: auto;
+}
+
+#horoscopebtn {
+  background-color: #210934;
+  font-family: "Ink Free";
+  color: white;
+  margin-left: 2%;
+  text-decoration: none;
+  margin-left: 50%;
+  margin-top: 15px;
+}
+
+
+/* Fortune section style */
+
+
+#fortune-grouping {
+  width: auto;
+  background-image: url(./images/stars2.jpg);
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.words {
+  width: auto;
+  color: #b8c4ee;
+}
+
+#category {
+  margin-top: 20px;
+  padding: 15% 3% 8% 3%;
+  text-align: center;
+  font-size: 3vh;
+}
+
+#fortune {
+  text-align: center;
+  padding: 0% 3% 0% 3%;
+  font-size: 30px;
+  height: 265px;
+}
+
+
+#generate1 {
+  font-size: 3vh;
+  border-radius: 50%;
+  background-image: url(./images/stars2.jpg);
+  text-align: center;
+  padding: 5% 20% 25% 20%;
+  color: #b8c4ee;
+  height: 15%;
+  width: auto;
+  border: none;
+  font-family: "Jokerman";
+  margin-top: 5%;
+}
+
+
+
+#musicSec {
+  background-color: #D3D3D3;
+  height: 750px;
+  width: auto;
+}
+
+#musicbtn {
+  background-color: #210934;
+  font-family: 'Ink Free';
+  color: white;
+  margin-left: 50%;
+}
+
+
+
+#foodSec {
+  background-color: #D3D3D3;
+  height: 650px;
+  width: auto;
+}
+
+#foodbtn {
+  background-color: #210934;
+  font-family: 'Ink Free';
+  color: white;
+  margin-left: 50%;
+  margin-top: 5px;
+}
+
+
+
+#fashionSec {
+  background-color: #D3D3D3;
+  height: 750px;
+  width: auto;
+}
+
+
+#fashionbtn {
+  background-color: #210934;
+  font-family: 'Ink Free';
+  color: white;
+  margin-top: 5px;
+  padding: 12px 24px;
+}
+
+
+/* login section */
+
+input[type=text],
+input[type=password] {
+  width: 90%;
+  padding: 2%;
+  margin: -8% 0 0% 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.bg-img {
+  background-image: url(./images/rougeCircles.png.jpg);
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.btn {
+  background-color: #76676e;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#emailSubmit {
+  font-size: 20px;
+  font-family: "tahoma";
+  color: #333;
+}
+
+#contact-info {
+  justify-content: left;
+  color: whitesmoke;
+}
+
+
+.logText {
+  font-family: "linux biolinum G", "Century Gothic";
+  margin-top: 5%;
+}
+
+.bottom-area {
+  height: 400px;
+}
+
+#emailForm {
+  margin: 5% 0% 0% 5%;
+}
+
+.welcome-area {
+  margin: 5% 15% 0% 0%;
+  background-color: rgb(213, 205, 205);
+  color: #210934;
+  padding: 10%;
+  font-family: "linux biolinum G", "Century Gothic";
+  font-size: 3vh;
+}
+
+
+
+/* Code for Footer */
+.logosFooter {
+  height: 50px;
+  width: 50px;
+  margin: 5%;
+}
+
+
+.bottom-center {
+  text-align: center;
+}
+
+
+#pplogo {
+  width: 100%;
+  height: fit-content;
+  margin: 5px;
+}
+
+
+#bottom-page {
+  background-color: #57515c;
+  color: #D3D3D3;
+  font-family: "Linux Biolinum G", "Century Gothic";
+}
+
+#contact-info {
+  margin: 5%;
+}
+
+
+#name-info {
+  font-size: 25px;
+  font-family: "Harrington";
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width:650px) {
+
+
+  .bgimg-2,
+  .bgimg-3,
+  .bgimg-4,
+  .bgimg-5,
+  .bgimg-6 {
+    display: none;
+    min-height: 600px;
+
+  }
+}
+
+
+@media only screen and (max-device-width:620px) {
+
+  #personalitybtn {
+    margin-top: -90px;
+  }
+
+  #musicbtn {
+    margin-top: -40px;
+
+  }
+
+  #horoscopebtn {
+    margin-top: -195px;
+    margin-left: 10px;
+  }
+
+  #foodbtn {
+    margin-top: -40px;
+
+  }
+
+  #fashionbtn {
+    margin-top: -75px
+  }
+}

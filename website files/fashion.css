@@ -1,0 +1,171 @@
+body {
+  background-image: url(./Images/hotel-wallpaper.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.head {
+  font-family: "harrington";
+}
+
+#heading {
+  text-align: left;
+  font-family: "ink-free";
+  color: whitesmoke;
+  font-size: 80px;
+  font-weight: bolder;
+  background-color: #210934;
+}
+
+.intro {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 42px;
+}
+
+.paragraph-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+
+ /* side nav buttons */
+ #mySidenav a{
+  position: absolute;
+  left: -95px;
+  transition: 0.3s;
+  padding:15px 5px 0px 3px;
+  height:60px;
+  width: 110px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  overflow: hidden;
+  position: fixed; 
+}
+
+
+#mySidenav a:hover {
+  left: 0;
+  color: whitesmoke
+}
+
+
+/* sidenav seperate tab styling */
+#home {
+  top: 20px;
+  background-color: #550d90;
+}
+
+
+/* Code for Footer */
+.logosFooter{
+  height: 50px;
+  width: 50px;
+  margin: 5%;
+}
+
+.bottom-center{
+  text-align: center;
+}
+
+#pplogo{
+  width:100%;
+  height: fit-content;
+  margin: 5px;
+}
+
+#bottom-page{
+  background-color:#57515c;
+  color:#D3D3D3;
+  font-family: "Linux Biolinum";
+}
+
+#contact-info{
+  margin:5%;
+}
+
+#name-info{
+  font-size: 25px;
+  font-family: "Harrington";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* heres the go home button to style */
+#foodbtn {
+  background-color: #210934;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  margin-left: 75%;
+}

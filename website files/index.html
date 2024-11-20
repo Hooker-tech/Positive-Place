@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./quote.html">
+  <link rel="stylesheet" href="./quote.css">
+
+  <title>A Positive Place</title>
+</head>
+
+
+
+<body>
+
+  <div class="bgimg-1 w3-display-container w3-opacity-min text-center" id="top-of-page">
+    <div>
+
+      <img id="main-logo" class=" img-fluid w3-center " src="./images/logo10-1.gif" alt="logo">
+      <div>
+
+        <!--side nav tabs -->
+        <div id="mySidenav" class="sidenav">
+          <a href="#" class="sidenav" id="home">Home</a>
+          <a href="#personalitySec" class="sidenav" id="personalitySec1">About You</a>
+          <a href="#horoscopeSec" class="sidenav" id="horoscopeSec1">Astrology</a>
+          <a href="#musicSec" class="sidenav" id="musicSec1">Arts</a>
+          <a href="#foodSec" class="sidenav" id="foodSec1">Food</a>
+          <a href="#fashionSec" class="sidenav" id="fashionSec1">Fashion</a>
+        </div>
+      </div>
+      <h1 class="mainTitle"> A path to discovering the best you</h1>
+    </div>
+  </div>
+  </div>
+
+  <div class="einstein w3-row w3-center w3-dark-grey ">
+    <h3 class="einstein first" id="einsteinQuote">"Everybody is a genius, but if you judge a fish by its ability to
+      climb a tree, it will
+      live
+      it's whole life believing that it is stupid"</h3>
+    <p id="einsteinRight"><b>Albert Einstein</b></p>
+  </div>
+
+  <!-- PERSONALITY SECTION BEGINS -->
+  <div id="personalitySec">
+
+    <div id="people-background" class="w3-content w3-container">
+      <h3 id="indexTitle" class="w3-center">We are a Positive Place!</h3>
+      <img src="./images/avatars2.jpg" style="width:100%" class="image-fluid"
+        alt="people with different learning styles">
+      <p id="positve-text" style="font-size:18px">
+        <hr> A place where you can come and find your interests, a place to learn,
+        understand, and
+        find your inner being. Dive deep into your inner self with our learning style tests and check out what your sun
+        sign says about you.
+        We are here to take you out of your negative head space and bring you into A
+        Positive Place! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae eligendi, ratione iure
+        voluptate rerum option.Take our personalized learning style test to find our more about yourself. Then you can
+        check out the things that interest you and further your imagination.
+      </p>
+      <hr>
+
+
+      <div>
+        <a href="./aboutus.html" target="_blank" id="aboutusbtn"
+          class="w3-btn w3-round-xxlarge w3-padding-large buttons ">About Us</a>
+        <a href="./testPage.html" target="_blank" id="personalitybtn"
+          class="w3-btn w3-round-xxlarge w3-padding-large buttons ">Test
+          Yourself</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- START OF CODE...FOR QUOTES......  -->
+
+  <div class="bgimg-2 w3-display-container">
+    <div class="w3-display-middle">
+      <span id="parallaxTitle" class="w3-xxlarge w3-text-white">
+        <div id="background-image">
+          <div id="quote"></div>
+          <div id="author"></div>
+          <div id="button">
+            <button id="clicker" onclick='randomQuotes(), randomFontFamily(), randomPictures()'>Inspire
+              Me!!!!</button>
+          </div>
+        </div>
+      </span>
+    </div>
+  </div><br>
+
+  <!-- HOROSCOPE SECTION BEGINS -->
+
+  <div id="horoscopeSec" class="container-fluid">
+    <div class="w3-content w3-container">
+      <h3 id="indexTitle" class="w3-center">HOROSCOPES</h3>
+      <p id="indexTitle2" class="w3-center"><em>Astrology for Reflection, Revelation & Traits of your sun sign</em><br>
+      </p>
+      <div class="row" style="height:10vh;z-index:5">
+        <div class="col-xs-3 col-s-3 col-md-3 col-lg-3 col-xl-3">
+          <img class="w3-image" src="./images/zodiac.jpg" width="900" style="width:5vw" onclick="onClick(this)">
+        </div>
+        <div id="para" class="col-xs-6 col-s-6 col-md-6 col-lg-6 col-xl-6 fortune">
+          <div id="fortune-grouping">
+            <div id="category" class="words"></div>
+            <div id="fortune" class="words"></div><br>
+          </div>
+          <button id="generate1" onclick="randoFortune(), randoFont()">Click for a message from the
+            <em>Stars</em></button>
+        </div>
+        <div class="col-xs-3 col-s-3 col-md-3 col-lg-3 col-xl-3">
+          <img src="./images/zodiac3.webp" onclick="onClick(this)" width="900" style="width:5vw"
+            class=" w3-image w3-right" alt="zodiac sun sign">
+          <a href="./horoscope.html" target="_blank" id="horoscopebtn"
+            class="w3-btn w3-round-xxlarge w3-padding-large buttons">FIND
+            YOURS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bgimg-4 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span id="parallaxTitle" class="w3-xxlarge w3-text-white w3-wide">MUSIC THEATRE AND DANCE</span>
+    </div>
+  </div>
+
+  <!-- MUSIC SECTION BEGINS -->
+  <div id="musicSec">
+    <div class="w3-content w3-container">
+      <h3 id="indexTitle" class="w3-center">MUSIC THEATRE AND DANCE</h3>
+      <p id="indexTitle2" class="w3-center"><em>Muisc Theatre and Film are very gratifying when you immerse yourself
+          into these
+          hobbies.You can relieve stress and meet fun and interesting people. <br>
+        </em></p><br>
+
+
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="./images/theorbo-gab19f5008_1920.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="guitar-man">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/notes2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="lalala">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/harp-gd7b7ee6ec_1920.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="harp">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/music-sheet-g8594d78ae_1920.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="music sheet">
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="./images/theatre2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="music notes">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-thorn-yang-139829.jpg" style="width:80%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="girl taking photo">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/film.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="film camera">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-mohamed-almari-368893.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="camera shot">
+        </div>
+
+        <a href="./music.html" target="_blank" id="musicbtn"
+          class=" w3-btn w3-round-xxlarge w3-padding-large buttons ">Entertain
+          Yourself</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOD SECTION BEGINS -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min ">
+    <div class="w3-display-middle">
+      <span id="parallaxTitle" class="w3-xxlarge w3-text-white w3-wide">FOOD FOR THE SOUL</span>
+    </div>
+  </div>
+
+  <div id="foodSec">
+    <div class="w3-content w3-container">
+      <h3 id="indexTitle" class="w3-center">The Love of Food!!!</h3>
+      <p id="indexTitle2" class="w3-center"><em>Here are some of my latest recipes.</em></p><br>
+
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="./images/pexels-samer-daboul-2233729.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="kabobs on a grill">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-cats-coming-835741.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="strawberry tart">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-snapwire-675951.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="steak filet plate of food">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-jan-yuri-agadulin-6027352.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="cake pops">
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="./images/Lasagna-Roll3.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="lasagna roll">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-life-of-pix-9095.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="handmaking dough">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-chan-walrus-958545.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="indian cuisine">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/pexels-ylanite-koppens-2014693.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="macaroons">
+        </div>
+
+        <a href="./cooking.html" target="_blank" id="foodbtn"
+          class="w3-btn w3-round-xxlarge w3-padding-large buttons">Featured
+          Recipes</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bgimg-5 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span id="parallaxTitle" class="w3-xxlarge w3-text-white w3-wide">FASHION TIME</span>
+    </div>
+  </div>
+
+  <!-- Fashion section begins-->
+  <div id="fashionSec">
+    <div class="w3-content w3-container">
+      <h3 id="indexTitle" class="w3-center">STRUT YOUR STUFF!!!</h3>
+      <p id="indexTitle2" class="w3-center"><em>Here you can find some of the latest fashion news.</em></p><br>
+
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="./images/makeup.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="model">
+        </div>
+
+        <div class="w3-col m3">
+          <img id="magnify" src="./images/makeup2.jpg" style="width:100%" onclick="onClick(this)"
+            class="w3-hover-opacity" alt="pretty women">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/makeup4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="asian model">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/lipstick2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="lipstick">
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="./images/makeup5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="girl">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/lipstick3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="My beloved lipgloss">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/eyebrows2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="eyebrows">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="./images/makeup3.jpg" href="#" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+            alt="women">
+        </div>
+
+        <a href="./fashion.html" target="_blank" id="fashionbtn"
+          class="w3-btn w3-round-xxlarge w3-padding-large buttons">Express
+          Yourself</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image">
+    </span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- bottom of page  -->
+  <div class="bgimg-6 w3-display-container w3-opacity-med bottom-area">
+
+    <span id="parallaxTitle1" class="w3-xlarge ">
+      <div class="row">
+        <div class="col-xs-4 col-s-4 col-md-4 col-lg-4 col-xl-4">
+          <form id="emailForm" class="container">
+            <h1 class="logText">Login</h1>
+            <label for="fullName"><b>Your Name</b></label>
+            <input id="fullName" class="logText" type="text" name="fullName" required>
+            <label for="email"><b>Email</b></label>
+            <input id="email" class="logText" type="text" name="email" required>
+            <label for="password"><b>Password</b></label>
+            <input id="password" class="logText" type="password" name="psw" required>
+            <button id="generate-alert" class="logText" type="button" class="btn">Login</button>
+          </form>
+        </div>
+        <div class="col-xs-8 col-s-8 col-md-8 col-lg-8 col-xl-8">
+          <p id="welcome" class="welcome-area">HI POSITIVE FRIENDS WE HOPE YOU DAY IS GOING GREAT. DONT FORGET TO LOGN
+            TO ENJOY A MORE PERSONAL JOURNEY.</p>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <!-- FOOTER/// use dre's footer  -->
+
+  <footer id="bottom-page" class="row">
+    <div class="col-xs-3 col-s-3 col-md-3 col-lg-3 col-xl-3 w3-content">
+      <address id="contact-info">
+        <span id="name-info">A Positive Place</span><br>
+        123 Any Street<br>
+        Anytown, AZ 86336<br>
+        (928) 282-5555 /
+        <a id="email-link" class="text-decoration-none" href="mailto:apositiveplace@gmail.com">
+          APositivePlace@gmail.com</a>
+      </address>
+    </div>
+
+    <div class="col-xs-5 col-s-5 col-md-5 col-lg-5 col-xl-5 bottom-center">
+      <img id="pplogo" src="./Footer Images/logo3-1.gif" alt="A Positve Place Logo">
+      <h3>Contact Us Today</h3>
+    </div>
+
+    <div class="col-xs-4 col-s-4 col-md-4 col-lg-4 col-xl-4 bottom-center">
+      <a href="#" target="_blank"><img class="logosFooter" src="./Footer Images/facebook-icon.png"
+          alt="Facebook Icon"></a>
+      <a href="#" target="_blank"><img class="logosFooter" src="./Footer Images/Twitter.jpg" alt="Twitter Logo"></a>
+      <a href="#" target="_blank"><img class="logosFooter" src="./Footer Images/Linkin.png" alt="LinkedIn Logo"></a>
+      <a href="#" target="_blank"><img class="logosFooter" src="./Footer Images/phone.jpg" alt="Phone Logo"></a>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <!-- import bootstrap scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!-- import D3.js -->
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="./quote.js"></script>
+  <script type="text/javascript" src="./fortuneScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+body, html {height: 100%}
+
+
+/* side nav buttons / ALL UNIFORM THROUGHOUT SITE*/
+#mySidenav a{
+    position: absolute;
+    left: -95px;
+    transition: 0.3s;
+    padding:15px 5px 0px 3px;
+    height:60px;
+    width: 110px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+    position: fixed; 
+  }
+  
+  
+  #mySidenav a:hover {
+    left: 0;
+    color: whitesmoke
+  }
+  
+  
+  /* sidenav seperate tab styling */
+  #home {
+    top: 20px;
+    background-color: #550d90;
+  }
+
+
+.recipe {
+    display: none;
+    color: #210934;
+}
+
+
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./CookingImages/cooking2.jpg);
+  min-height: 90%;
+}
+
+
+.logo-img{
+   height: auto;
+   width:auto;
+   margin-top: 15px;
+}
+
+
+.title{
+    margin-top: 0px;
+    font-family: "Linux Biolinum";
+    text-shadow: 5px 5px 10px #D3D3D3;
+    color: #210934;
+}
+
+
+.subtitle{
+    font-family: "Linux Biolinum";
+}
+
+
+.recipe-title{
+    font-family: "Linux Biolinum";
+    color: #210934;
+}
+
+
+.tabs{
+    font-size: 3vh;
+    font-family: "Linux Biolinum";
+    background-color: #57515c;
+    color: #D3D3D3;
+    font-weight: bold; 
+}
+
+
+.selected-tab{
+
+    background-color: #210934;
+    /* color:whitesmoke; */
+    font-weight: bold;
+}
+
+
+.tabs:hover{
+    background-color: #D3D3D3;
+    color:#210934;
+}
+
+
+.lists{
+    font-size:100%;
+    font-family: "Linux Biolinum";
+}
+
+
+.amount{
+    font-size:85%;
+    font-family: "Linux Biolinum";
+}
+
+
+.recipe1{
+
+    background-image: url(./CookingImages/Chicken-Tortilla-SoupOpacity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#210934; 
+}
+
+
+.para-text{
+    font-family: "Linux Biolinum";
+}
+
+
+.backgrounds{
+
+    background-color: #D3D3D3;
+}
+
+
+.recipe2{
+
+    background-image: url(./CookingImages/Lasagna-Roll3Opacity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.recipe-serves{
+    background-image: url(./CookingImages/Lasagna-Roll3Opacity.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.logosFooter{
+    height: 50px;
+    width: 50px;
+    margin: 5%;
+}
+
+
+.bottom-center{
+    text-align: center; 
+}
+
+
+#pplogo{
+    width:100%;
+    height: fit-content;
+    margin: 5px;
+}
+
+
+#bottom-page{
+    background-color:#57515c;
+    color:#D3D3D3;
+    font-family: "Linux Biolinum";
+}
+
+
+#contact-info{
+    margin:5%;
+}
+
+
+#name-info{
+    font-size: 25px;
+    font-family: "Harrington";
+}

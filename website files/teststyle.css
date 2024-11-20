@@ -1,0 +1,166 @@
+/* side nav buttons */
+#mySidenav a {
+    position: absolute;
+    left: -95px;
+    transition: 0.3s;
+    padding: 15px 5px 0px 3px;
+    height: 60px;
+    width: 110px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+    position: fixed;
+    font-family: "Ink Free";
+}
+
+
+#mySidenav a:hover {
+    left: 0;
+    color: #D3D3D3;
+    background-color: #57515c;
+}
+
+
+/* sidenav seperate tab styling */
+#home {
+    top: 20px;
+    background-color: #3a3636;
+}
+
+
+
+#logo-top {
+
+    margin-top: 2%;
+}
+
+#top-page {
+
+    background-image: url(./Images/puzzle-2500333_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+
+    color: whitesmoke;
+    font-family: "linuz Biolinum";
+    font-size: 7vw;
+    margin-top: 20%;
+
+}
+
+
+.explanation {
+    font-size: 2vh;
+    height: auto;
+    width: auto;
+    text-align: center;
+    border: 2px solid #210934;
+    padding: 3%;
+    color: #D3D3D3;
+    background-color: #210934;
+    font-family: "linuz Biolinum", "Century Gothic";
+
+}
+
+
+
+
+.totals {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #210934;
+    width: 90%;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #210934;
+    border: 2px solid;
+    background-color: #210934;
+    color: #D3D3D3;
+    padding: 5%;
+    padding-right: 20%
+}
+
+#submit:hover {
+    background-color: #D3D3D3;
+    color: #210934;
+}
+
+.questions {
+    margin-top: 5px;
+    color: #210934;
+    font-weight: bold;
+}
+
+input[type=radio] {
+    accent-color: #210934;
+}
+
+.logos {
+    height: 50px;
+    width: 50px;
+    margin: 5%;
+}
+
+.bottom-center {
+    text-align: center;
+
+
+}
+
+#pplogo {
+    width: 100%;
+    height: fit-content;
+    margin: 5px;
+
+}
+
+#bottom-page {
+    background-color: #57515c;
+    color: #D3D3D3;
+    font-family: "Linux Biolinum";
+
+}
+
+#contact-info {
+    margin: 5%;
+}
+
+#name-info {
+    font-family: "Harrington";
+    font-size: 25px;
+}
+
+#whole-page {
+    background-color: #D3D3D3;
+}
+
+#section-header {
+    margin-top: 2%;
+    background-color: #210934;
+    color: #D3D3D3;
+    height: auto;
+    width: auto;
+    padding: 4%;
+    font-family: "Harrington";
+    font-size: 5vh;
+}
+
+#learning-test {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 2px solid #210934;
+}
+
+#learning-style {
+    margin-top: 3%;
+}
+
+.email-link {
+    color: #D3D3D3;
+}

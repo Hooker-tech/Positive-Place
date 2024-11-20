@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import bootstrap full CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./cookingstyle.css">
+
+  <title>Time for Cooking</title>
+
+</head>
+<!-- A uniform side nav tab that takes user back to home page -->
+<div id="mySidenav" class="sidenav">
+  <a href="./index.html" target="_blank" class="sidenav w3-button" id="home">Home</a>
+</div>
+
+
+<header class="bgimg w3-display-container" id="home">
+  <div class="text-center">
+    <img class="img-fluid logo-img" src="./CookingImages/logo7-cropped.gif" alt="A Positive Place Logo">
+
+  </div>
+  <div class="w3-display-middle w3-center">
+
+    <span class="title w3-hide-small" style="font-size:100px">Let's Get<br>COOKING</span>
+    <span class="title w3-hide-large w3-hide-medium" style="font-size:60px"><b>let's Get<br>COOKING</b></span>
+    <p><a href="#recipe" class="backgrounds subtitle w3-button w3-xxlarge">Take me to the recipes</a></p>
+  </div>
+</header>
+
+<!-- Recipe Container -->
+<div class="backgrounds w3-container w3-padding-64 w3-xxlarge" id="recipe">
+  <div class="w3-content">
+
+    <h1 class="w3-center w3-jumbo recipe-title" style="margin-bottom:64px">Kick Ass Mexican Tortilla Soup</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openRecipe(event, 'ingredients1');" id="myLink" class="tabs">
+        <div class="w3-col s4 tablink w3-padding-large  tabs">Ingredients</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openRecipe(event, 'directions1');">
+        <div class="w3-col s4 tablink w3-padding-large  tabs">Directions</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openRecipe(event, 'serves1');">
+        <div class="w3-col s4 tablink w3-padding-large tabs">Serve</div>
+      </a>
+    </div>
+
+    <div id="ingredients1" class=" recipe1 w3-container recipes w3-padding-32">
+      <h1 class="lists"><b>Cilantro</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round ">2 Bunches</span>
+      </h1>
+
+      <hr>
+
+      <h1 class="lists"><b>Green Onion</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">2 Bundles</span>
+      </h1>
+
+      <hr>
+
+      <h1 class="lists"><b>Jalapeno</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round lists">1 or 2</span>
+      </h1>
+
+      <hr>
+
+      <h1 class="lists"><b>Cans of Corn</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">4-12oz
+          Cans</span></h1>
+
+      <hr>
+
+      <h1 class="lists"><b>Tomato Sauce</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">4-28oz
+          Cans</span></h1>
+
+      <hr>
+
+      <h1 class="lists"><b>Black Beans</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">4-12oz Cans</span>
+      </h1>
+
+      <hr>
+      <h1 class="lists"><b>Grilled Chicken</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">4
+          Breasts</span></h1>
+
+      <hr>
+      <h1 class="lists"><b>Spanish Rice</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">4 Cups</span>
+      </h1>
+
+      <hr>
+      <h1 class="lists"><b>Tortilla Strips</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">1 Bag</span>
+      </h1>
+
+      <hr>
+      <h1 class="lists"><b>Avocado</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">4</span></h1>
+
+      <hr>
+      <h1 class="lists"><b>Limes</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">4</span></h1>
+
+      <hr>
+      <h1 class="lists"><b>Knorr Chicken Bouillon</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">8
+          Tbls</span></h1>
+
+      <hr>
+      <h1 class="lists"><b>Tones Cajun Seasoning</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">6
+          Tbls</span></h1>
+
+
+    </div>
+
+    <div id="directions1" class="recipe1 w3-container recipes w3-padding-32 ">
+
+
+      <h1><b>Chop up green onion, 1 bunch of cilantro, and jalapeno</b></h1>
+      <p>Toss is a pot and saute in oil or butter for a couple of minutes</p>
+      <hr>
+
+      <h1 class=><b>Add Tones Cajun Seasoning</b> </h1>
+      <p class=>mixing into a paste</p>
+      <hr>
+
+      <h1><b>Add Tomato sauce, Water and Chicken Bouillon</b></h1>
+      <p>Pour the tomato sauce in the pot, fill the cans with water twice adding to the pot, and add the bouillon -
+        Bring to a Boil</p>
+
+      <h1><b>Add black beans, corn</b> </h1>
+      <p>add more seasoning and bouillon to taste</p>
+      <hr>
+      <h1><b>Add chicken</b> </h1>
+      <p>You can use any style of chicken you prefer or have on hand. I prefer to use grilled chicken breast seasoned
+        with the cajun seasoning</p>
+      <hr>
+      <h1><b>Add Spanish rice</b> </h1>
+      <p>You can </p>
+      <hr>
+    </div>
+
+
+    <div id="serves1" class="recipe1 recipes w3-padding-32 w3-container">
+
+      <h1 class="text-center"><b>Serves 8-10 people</b>
+        <hr>
+
+        <p>Fill the bowls 3/4 of the way up</p>
+        <p>Top with shredded cheese, tortilla strips, sour cream, avocado, and cilantro</p>
+        <hr>
+        <h1 class="text-center"><b>ENJOY!</b>
+
+
+    </div><br>
+
+  </div>
+</div>
+<!-- Second Recipe Container -->
+<div class="backgrounds w3-container w3-padding-64 w3-xxlarge" id="second recipe">
+  <div class="w3-content">
+
+    <h1 class="w3-center w3-jumbo recipe-title" style="margin-bottom:64px">Lasagna Rolls</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openRecipe(event, 'ingredients2');" id="myLink" class="tabs">
+        <div class="w3-col s4 tablink w3-padding-large tabs">Ingredients</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openRecipe(event, 'directions2');">
+        <div class="w3-col s4 tablink w3-padding-large tabs">Directions</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openRecipe(event, 'serves2');">
+        <div class="w3-col s4 tablink w3-padding-large tabs">Serves</div>
+      </a>
+    </div>
+
+    <div id="ingredients2" class="recipe2 w3-container recipes w3-padding-32 ">
+      <h1 class="lists"><b>Lasagna Noodles</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round ">1 Box</span>
+      </h1>
+      <hr>
+
+      <h1 class="lists"><b>Spaghetti Sauce</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">24 oz</span>
+      </h1>
+      <p>Your favorite brand or homemade</p>
+      <hr>
+
+      <h1 class="lists"><b>Ground Beef</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round lists">1 lb</span>
+      </h1>
+      <hr>
+
+      <h1 class="lists"><b>Sausage</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">1/2 lb</span></h1>
+      <p>Pork or Turkey Sausage</p>
+      <hr>
+
+      <h1 class="lists"><b>Ricotta Cheese</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">24 oz</span>
+      </h1>
+
+      <hr>
+
+      <h1 class="lists"><b>Shredded Italian Cheeses</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">4
+          cups</span>
+      </h1>
+
+      <hr>
+      <h1 class="lists"><b>Eggs</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">2</span></h1>
+
+      <hr>
+      <h1 class="lists"><b>Garlic</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">2 Cloves</span>
+      </h1>
+      <hr>
+      <h1 class="lists"><b>Italian Seasoning</b> <span class="amount w3-right w3-tag w3-dark-grey w3-round">1
+          Tbsp</span>
+      </h1>
+      <hr>
+
+      <h1 class="lists"><b>Garlic Salt</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">Couple
+          Shakes</span></h1>
+      <hr>
+
+      <h1 class="lists"><b>Pepper</b><span class="amount w3-right w3-tag w3-dark-grey w3-round">Couple Shakes</span>
+      </h1>
+
+
+
+
+    </div>
+
+    <div id="directions2" class="recipe2 w3-container recipes w3-padding-32">
+      <h1><b>Cook Lasagna Noodles</b></h2>
+        <p>Al dente - About 10 minutes - Drain and rinse, then place in cool water</p>
+        <hr>
+
+        <h1><b>Cook Beef and Sausage</b></h1>
+        <p>Throw the beef and sausage into a skillet with 1 chopped up garlic clove, 1tsp italian seasoning, garlic
+          salt, and pepper - Drain oil and set aside</p>
+        <hr>
+
+        <h1><b>Pre-heat Oven to 350 degrees</b></h1>
+        <hr>
+
+        <h1><b>Mix Ricotta, egg, meat mixture, and 2 cups shredded cheese</b> </h1>
+        <p>Mix well and add 1 chopped up garlic clove, 1tsp italian seasoning, garlic salt, and pepper</p>
+        <hr>
+
+        <h1><b>Time to Roll</b></h1>
+        <p>Line the bottom of a 13X9 baking pan with Spaghetti Sauce. Place a noodle flat in the sauce and spread with
+          Ricotta filling (about 1/4 inch thick), top with sauce and roll - Repeat placing rolls 3 across and 4 to 5
+          down until you are out of noodles or room in the pan.
+        </p>
+        <hr>
+
+        <h1><b>Top with sauce and cheese and throw in the oven</b></h1>
+        <p>Pour the rest of the sauce on top and then top with the remaining shredded cheese. Put in the oven and cook
+          for 30 minutes.
+        </p>
+
+    </div>
+
+
+    <div id="serves2" class="recipe-serves w3-container recipes w3-padding-32">
+      <h1 class="text-center"><b>Serves 6 to 8</b>
+        <hr>
+
+        <h1><b>Place 1 or 2 rolls per plate</b> </h1>
+        <p>Serve with garlic cheese bread and some salad</p>
+        <hr>
+
+        <h1 class="text-center"><b>ENJOY!</b></h1>
+    </div><br>
+  </div>
+</div>
+
+
+<!-- About Container -->
+<div class="backgrounds w3-container w3-padding-64 w3-xlarge" id="share">
+  <div class="w3-content">
+    <h1 class="recipe-title w3-center w3-jumbo">Have a Recipe to Share</h1>
+
+    <form>
+      <div id="upload-section" class="text-center">
+        <input id="upload" class="share-buttons" type="file" name="filename">
+        <button id="share-button" class="share-buttons" type="button">Share</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer id="bottom-page" class="row">
+
+
+  <div class="col-xs-3 col-s-3 col-md-3 col-lg-3 col-xl-3">
+    <address id="contact-info" tabindex="8">
+      <span id="name-info">A Positive Place</span><br>
+      123 Any Street<br>
+      Anytown, AZ 86336<br>
+      (928) 282-5555 /
+      <a class="text-decoration-none" href="mailto:apositiveplace@gmail.com" id="email-link">
+        APositivePlace@gmail.com</a>
+    </address>
+  </div>
+
+  <div class="col-xs-5 col-s-5 col-md-5 col-lg-5 col-xl-5 bottom-center">
+    <img id="pplogo" src="./CookingImages/logo3-1.gif" alt="A Positve Place Logo">
+    <h3>Contact Us Today</h3>
+  </div>
+
+
+  <div class="col-xs-4 col-s-4 col-md-4 col-lg-4 col-xl-4 bottom-center">
+    <a href="#" target="_blank"><img class="logosFooter" src="./CookingImages/facebook-icon.png"
+        alt="Facebook Icon"></a>
+    <a href="#" target="_blank"><img class="logosFooter" src="./Images/Twitter.jpg" alt="Twitter Logo"></a>
+    <a href="#" target="_blank"><img class="logosFooter" src="./Images/Linkin.png" alt="LinkedIn Logo"></a>
+    <a href="#" target="_blank"><img class="logosFooter" src="./Images/phone.jpg" alt="LinkedIn Logo"></a>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+<!-- import jquery -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- import bootstrap scripts -->
+<script src="js/bootstrap.bundle.js"></script>
+<!-- import D3.js -->
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="./cookingscript.js"></script>
+</body>
+
+</html>
